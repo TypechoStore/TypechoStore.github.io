@@ -8,7 +8,9 @@
         <category>Typecho模板</category>
       </categories>
       <tags>
-        <tag>tongleer,Typecho模板,微博主题</tag>
+        <tag>tongleer</tag>
+        <tag>Typecho模板</tag>
+        <tag>微博主题</tag>
       </tags>
   </entry>
   <entry>
@@ -19,7 +21,9 @@
         <category>Typecho插件</category>
       </categories>
       <tags>
-        <tag>WeiboFile,Typecho插件,微博图床</tag>
+        <tag>WeiboFile</tag>
+        <tag>Typecho插件</tag>
+        <tag>微博图床</tag>
       </tags>
   </entry>
   <entry>
@@ -27,7 +31,7 @@
     <url>%2F2018%2F12%2F12%2Fhello-world%2F</url>
     <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
       <categories>
-        <category>Ĭ�Ϸ���</category>
+        <category>默认分类</category>
       </categories>
   </entry>
 </search>
