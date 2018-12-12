@@ -1,8 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[TleMultiFunctionForTypecho多功能插件]]></title>
+    <url>%2F2018%2F12%2F12%2FTypehco%E6%8F%92%E4%BB%B6%EF%BC%9ATleMultiFunction%E5%A4%9A%E5%8A%9F%E8%83%BD%E6%8F%92%E4%BB%B6%2F</url>
+    <content type="text"><![CDATA[由于像Typecho一类的程序都需要插件，并且想要的功能太多，所以开发出这一款多功能插件，目前版本已支持百度链接提交、百度熊掌号资源提交、短网址缩短、简易轻论坛、QQ第三方登录和手机号登录注册6个功能…… 一、简介 1、百度链接提交 想必大家都用过wordpress的百度提交插件，会感觉启用后，发布文章时速度会偏慢，因为会去请求百度api，因此，此插件需要手动提交熊掌号资源，而站长普通的百度链接提交由最先的手动提交，现已升级为发布文章自动提交，十分便利。 2、百度熊掌号资源提交 此功能和百度链接提交类似，由于熊掌号逐步使用率增高，特增加这个功能提供使用，方便站长文章的收录。 3、短网址缩短 此功能可缩短本站和百度长网址（百度长网址因限制很多有一些不可缩短），并支持自定义短址和QQ防红措施。 演示地址：http://joke.tongleer.com/multi_dwz.html 4、论坛 此论坛模块可快速搭建一个简易轻论坛，支持发帖、回帖等论坛的基础功能。 演示地址：http://joke.tongleer.com/multi_bbs.html 5、QQ第三方登录 此功能集成QQ官方接口实现了typecho网站一键QQ登录的功能，方便网站用户进行快速登录和注册。 5、手机号登录注册 此功能使用阿里云短信验证服务实现了快速使用手机号登录、注册的功能。 二、使用方法 第一步：下载本插件，放在 usr/plugins/ 目录中，插件文件夹名必须为：TleMultiFunction；第二步：激活插件；第三步：填写配置；第四步：完成。 第五步（针对短网址步骤）：需要自行创建.htaccess文件，并实现伪静态，具体代码如下（仅供参考）： &lt;IfModule mod_rewrite.c&gt; RewriteEngine On RewriteBase / RewriteCond %{REQUEST_FILENAME} !-f RewriteCond %{REQUEST_FILENAME} !-d RewriteRule . /index.php [L] &lt;/IfModule&gt; 三、使用注意 此插件使用php5.6编写，如果遇到语法报错，就适当降低php版本即可。 四、更新记录： 2018-07-12 新增自动提交百度链接、优化百度提交记录页面。2018-07-05 新增了手机号注册模块、插件升级检测让你一直使用最新版本。2018-07-04 修改QQ登录配置界面样式及增加可删除通过QQ登录注册的用户，修改了404页面样式。2018-07-02 修复了论坛不能显示图片的bug2018-06-18 新增QQ登录功能2018-06-17 新增新浪微博短址缩短功能2018-06-03 新增论坛功能2018-05-27 新增短网址缩短功能2018-05-26 新增百度链接提交和百度熊掌号资源提交功能 下载地址： http://joke.tongleer.com/335.html]]></content>
+      <categories>
+        <category>Typecho插件</category>
+      </categories>
+      <tags>
+        <tag>Typecho插件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[TleDaShang打赏插件]]></title>
+    <url>%2F2018%2F12%2F12%2FTypehco%E6%8F%92%E4%BB%B6%EF%BC%9ATleDaShang%E6%89%93%E8%B5%8F%2F</url>
+    <content type="text"><![CDATA[插件介绍： 一款Typecho版本的可为文章打赏的插件，并且提供在线乞讨的独立页面，支持三合一转账二维码支付和有赞支付。 使用方法： 第一步：下载本插件，放在 usr/plugins/ 目录中（插件文件夹名必须为TleDaShang）；第二步：激活插件；第三步：填写配置；第四步：完成。 下载地址： http://joke.tongleer.com/333.html]]></content>
+      <categories>
+        <category>Typecho插件</category>
+      </categories>
+      <tags>
+        <tag>Typecho插件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[TleChat站长聊天室插件]]></title>
+    <url>%2F2018%2F12%2F12%2FTypehco%E6%8F%92%E4%BB%B6%EF%BC%9ATleChat%E7%AB%99%E9%95%BF%E8%81%8A%E5%A4%A9%E5%AE%A4%2F</url>
+    <content type="text"><![CDATA[插件介绍： 站长聊天室插件为Typecho站长提供聊天室功能，让站长之间的联系更加友爱，支持文本、长文本、语音聊天、图片传输及站长之间的QQ、微信、支付宝打赏，共同建立一个友爱的站长联盟。 使用方法： 第一步：下载本插件，放在 usr/plugins/ 目录中（插件文件夹名必须为TleChat）；第二步：激活插件；第三步：填写配置；第四步：完成。 下载地址： http://joke.tongleer.com/331.html]]></content>
+      <categories>
+        <category>Typecho插件</category>
+      </categories>
+      <tags>
+        <tag>Typecho插件</tag>
+        <tag>站长聊天室</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[TongleerForTypecho微博主题模板]]></title>
-    <url>%2F2018%2F12%2F12%2FTongleerForTypecho%E5%BE%AE%E5%8D%9A%E4%B8%BB%E9%A2%98%E6%A8%A1%E6%9D%BF%2F</url>
+    <url>%2F2018%2F12%2F12%2FTypecho%E6%A8%A1%E6%9D%BF%EF%BC%9ATongleer%E5%BE%AE%E5%8D%9A%E4%B8%BB%E9%A2%98%2F</url>
     <content type="text"><![CDATA[主题介绍： 本主题为作者个人原创，使用了Amaze UI中国首个开源 HTML5 跨屏前端框架制作。 主题特点： 1、模拟微博主页，适合自媒体站长使用。2、可自定义昵称、头像、简介、认证信息等信息 使用方法 1、将本主题里的所有文件放在您网站目录的usr/themes内，注意文件夹名字必须为tongleer。2、后台-&gt;外观-&gt;启用本主题-&gt;进入设置外观内填写信息 版本记录： v1.0.7： 新增侧边栏最新评论、最新粉丝、最新文章、查看更多资料页面、热门文章图文结合、横向彩色标签显示 新增微博头部添加性别、关注数、粉丝数、微博认证名称 优化评论框大小和评论列表中子评论的内边距 遗留问题：不知道为什么本地发布新页面为不包含数组的英文为别名就不会报错，而上传到服务器发布报错，而且不指定模板也报错，好迷糊，不知道是不是通用错误，但是报错过后，可以正常使用这个英文报错的别名，迷糊…… v1.0.6： 新增PJAX无刷新加载（未完善） 新增音乐播放器（修改歌单只能手动修改文件） 新增AJAX分页加载 增加阅读数和分享按钮 获得用户数的代码位置改变 本次更新涉及到的文件有：functions.php，footer.php，index.php，archive.php，post.php，header.php，sidebar.php，page_album.php(相册略作修改)，config.php（仅删除了一个商量，可以忽略。），及assets文件夹的静态文件（不做详细介绍，直接覆盖即可。） v1.0.5： 优化相册页面时间归档及分页方式显示：修改了page_album.php文件。 V1.0.4： 修改了第一次评论失败的情况 V1.0.3： 针对WeiboFileForTypecho插件上传视频之后而做的文章列表图片显示的修改 V1.0.1： 第一个版本降世 下载地址： http://joke.tongleer.com/328.html]]></content>
       <categories>
         <category>Typecho模板</category>
@@ -15,14 +49,14 @@
   </entry>
   <entry>
     <title><![CDATA[WeiboFileForTypecho微博图床插件]]></title>
-    <url>%2F2018%2F12%2F12%2FWeiboFileForTypecho%E5%BE%AE%E5%8D%9A%E5%9B%BE%E5%BA%8A%E6%8F%92%E4%BB%B6%2F</url>
+    <url>%2F2018%2F12%2F12%2FTypehco%E6%8F%92%E4%BB%B6%EF%BC%9AWeiboFile%E5%BE%AE%E5%8D%9A%E5%9B%BE%E5%BA%8A%2F</url>
     <content type="text"><![CDATA[首先拿无敌可爱又会杂技的创造101练习生小雨点姑娘——吕小雨压场。 看到如此清新的美图，接着介绍这款WeiboFile微博图床Typecho插件。 插件介绍： 1、将 Typecho 的附件上传至新浪（优酷）微博云存储中，无需申请appid，不占用服务器大小，可永久保存，只需一个不会登录的微博小号即可。2、在图床的基础上新增上传视频和视频解析的功能。3、新增前台微博图床上传。 使用方法： 第一步：下载本插件，放在 usr/plugins/ 目录中（插件文件夹名必须为WeiboFile）；第二步：激活插件；第三步：填写微博小号等等配置；第四步：完成。 版本推荐： php5.6+mysql5.0.11+Typecho正式版，其他版本也可能支持，若不支持联系作者。 更新记录： 2018-11-30 1.0.7 1、新增其他格式文件的上传 2、新增前台微博图床上传 3、优化修复代码、及对优酷视频上传及其他的说明进行解释 2018-07-25 去掉大视频上传页面里失误的打印结果函数。2018-07-11 新增大多数视频格式上传、管理，网站登录用户也可上传视频，但存在上传视频超时的问题。2018-07-10 新增解析秒拍、抖音视频功能2018-07-09 新增上传视频功能2018-07-02 增加了使用备注信息和上传后的图片增加后缀可成为一个完整的图片路径2018-05-02 第一版本实现 下载地址： http://joke.tongleer.com/327.html]]></content>
       <categories>
         <category>Typecho插件</category>
       </categories>
       <tags>
-        <tag>WeiboFile</tag>
         <tag>Typecho插件</tag>
+        <tag>WeiboFile</tag>
         <tag>微博图床</tag>
       </tags>
   </entry>
